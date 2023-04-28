@@ -5,7 +5,7 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example</groupId>
+  <groupId>console6500</groupId>
   <artifactId>hello-actions</artifactId>
   <version>1.0</version>
 
@@ -16,7 +16,7 @@
       <url>https://maven.pkg.github.com/console6500/bookish-potato</url>
     </repository>
   </distributionManagement>
-         
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
