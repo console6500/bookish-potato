@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      contents: write
       packages: write
 
     steps:
@@ -39,3 +40,4 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       with:
           files: target/hello-actions.jar
+
