@@ -6,7 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>console6500</groupId>
+
   <artifactId>hello-actions</artifactId>
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+  </build>
+
   <version>1.0</version>
 
   <distributionManagement>
